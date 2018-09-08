@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd", "BackEnd\BackEnd.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Tests", "BackEnd.Tests\BackEnd.Tests.csproj", "{4E967A8D-6E14-4A75-B5DB-055916D457CE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{5593B515-DA6D-401B-A537-12A6F65FDE54}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{BB7D1E5B-D1A3-45D8-8602-083E30EAD239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{2A9F82EC-9EAF-4882-A724-081438030FC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{2A9F82EC-9EAF-4882-A724-081438030FC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,7 +34,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2A9F82EC-9EAF-4882-A724-081438030FC2} = {5593B515-DA6D-401B-A537-12A6F65FDE54}
+		{2A9F82EC-9EAF-4882-A724-081438030FC2} = {BB7D1E5B-D1A3-45D8-8602-083E30EAD239}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FFB5C37F-411C-403D-AF09-00F615F23E9D}
