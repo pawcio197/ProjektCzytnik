@@ -21,10 +21,14 @@ namespace BackEnd.Controllers
             return new UserValidateUserResponse()
             {
                 Success = DataBase.ValidateUser(
-                    request.Bytes[0],
+                    /*request.Bytes[0],
                     request.Bytes[1],
                     request.Bytes[2],
-                    request.Bytes[3]
+                    request.Bytes[3]*/
+                    request.id0,
+                    request.id1,
+                    request.id2,
+                    request.id3
                     /*request.RoomId*/
                     )
             };
