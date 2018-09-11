@@ -24,8 +24,8 @@ namespace BackEnd.Controllers
                     request.Bytes[0],
                     request.Bytes[1],
                     request.Bytes[2],
-                    request.Bytes[3],
-                    request.RoomId
+                    request.Bytes[3]
+                    /*request.RoomId*/
                     )
             };
         }
