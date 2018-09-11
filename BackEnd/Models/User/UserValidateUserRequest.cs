@@ -7,7 +7,7 @@ namespace BackEnd.Models.User
 {
     public class UserValidateUserRequest
     {
-        public int RoomId { get; set; }
+        /*public int RoomId { get; set; }*/
         public byte[] Bytes { get; set; }
     }
 }
