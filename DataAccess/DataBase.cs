@@ -16,21 +16,21 @@ namespace DataAccess
                 Byte2 = 76,
                 Byte3 = 192,
                 Byte4 = 73,
-                Rooms = new List<int>()
+                /*Rooms = new List<int>()
                 {
                     1,3,4,8
-                }
+                }*/
             },
             new UserData()
             {
             Byte1 = 43,
             Byte2 = 46,
             Byte3 = 228,
-            Byte4 = 137,
-            Rooms = new List<int>()
-            {
+            Byte4 = 137
+            /*Rooms = new List<int>()
+            {11
                 1,3,4,8
-            }
+            }*/
         }
         };
 
@@ -42,7 +42,7 @@ namespace DataAccess
                     if(userData.Byte2 == byte2)
                         if(userData.Byte3 == byte3)
                             if(userData.Byte4 ==byte4)
-                                if (userData.Rooms.Contains(room))
+                                //if (userData.Rooms.Contains(room))
                                     return true;
             }
 
