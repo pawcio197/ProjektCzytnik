@@ -13,7 +13,7 @@ namespace DataAccess
         public byte Byte2 { get; set; }
         public byte Byte3 { get; set; }
         public byte Byte4 { get; set; }
-        public List<int> Rooms { get; set; }
+        /*public List<int> Rooms { get; set; }*/
 
     }
 }
